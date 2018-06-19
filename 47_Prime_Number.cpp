@@ -8,16 +8,16 @@ void main()
 	else
 		printf("Not prime\n");
 }
-int primeNumber(int p)
+int primeNumber(int number)
 {
 	int counter = 0;
-	for(int i=2;i<p;i++)
+	for(int i=2;i<number;i++)
 	{
-		if(p%i == 0)
+		if(number%i == 0)
 			counter++;
 	}
 
-	printf("%d\n",counter);
+	//printf("%d\n",counter);
 
 	if(counter == 0)
 		return 1;
