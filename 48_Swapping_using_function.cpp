@@ -7,6 +7,7 @@ void main()
 
 	swap(number1,number2);
 
+	//Above function doesn't change actual values
 	printf("%d\t%d\n",number1,number2);
 }
 void swap(int a,int b)
